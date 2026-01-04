@@ -35,24 +35,29 @@ The dataset is stored in:
         ss316l.csv        
         
 ## Models Used
- Linear & Polynomial Regression,
- Ridge & Lasso,
- Decision Tree,
- Random Forest,
- Gradient Boosting,
- SVR,
- kNN,
- Neural Network (MLP)
+ * Linear & Polynomial Regression,
+ * Ridge & Lasso,
+ * Decision Tree,
+ * Random Forest,
+ * Gradient Boosting,
+ * SVR,
+ * kNN,
+ * Neural Network (MLP)
 
 ## How to Run
-Download or clone this repository.
-
-Install the required libraries
-
-Run the Code
-
-When prompted, select a layer thickness from the given options
-
+Download or clone this repository  
+Install the required libraries 
+```bash
+$ pip install numpy pandas scikit-learn
+```
+Run the Code  
+```bash
+$ python par.py
+```
+When prompted, choose a layer thickness from:
+```bash
+$ 20, 40, 70, or 90 microns
+```
 ## What I learned
 Comparing ML regression models
 
